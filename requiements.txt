@@ -1,6 +1,5 @@
 streamlit
-torch
-torchvision
+torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 albumenations
 numpy
 Pillow
