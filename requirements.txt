@@ -1,6 +1,6 @@
 streamlit
 torch 
 torchvision
-albumenations
+albumentations
 numpy
 Pillow
