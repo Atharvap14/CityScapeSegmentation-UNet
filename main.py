@@ -68,7 +68,7 @@ class Net(nn.Module):
         return output_out
 # Load the trained model
 model = Net(12)
-model.load_state_dict(torch.load('SegNet-Aug', map_location='cpu'))
+model.load_state_dict(torch.load('SegNet-Aug.zip', map_location='cpu'))
 
 # Define the predict function
 def predict(image):
